@@ -1,0 +1,18 @@
+@import '_core/normalize.css';
+
+@import '_core/colors.css';
+@import '_core/fonts.css';
+@import '_core/margins.css';
+@import '_core/grid.css';
+
+@import 'atoms/buttons.css';
+@import 'atoms/inputs.css';
+@import 'atoms/labels.css';
+
+@import 'molecules/navigation/navbar.css';
+
+@import 'organisms/header.css';
+@import 'organisms/main.css';
+@import 'organisms/footer.css';
+
+@import 'pages/home.css';

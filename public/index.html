@@ -1,0 +1,82 @@
+﻿<hmtl>
+	<head>
+		<!-- build:css css/style.min.css -->
+		<link rel="stylesheet" type="text/css" href="css/_core/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/_core/colors.css"/>
+		<link rel="stylesheet" type="text/css" href="css/_core/fonts.css"/>
+		<link rel="stylesheet" type="text/css" href="css/_core/margins.css"/>
+		<link rel="stylesheet" type="text/css" href="css/_core/grid.css"/>
+		<link rel="stylesheet" type="text/css" href="css/atoms/buttons.css"/>
+		<link rel="stylesheet" type="text/css" href="css/atoms/inputs.css"/>
+		<link rel="stylesheet" type="text/css" href="css/atoms/labels.css"/>
+		<link rel="stylesheet" type="text/css" href="css/molecules/navigation/navbar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/organisms/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/organisms/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/organisms/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pages/home.css"/>
+		<link rel="stylesheet" href="css/vendor/font-awesome.min.css"/>
+
+		<!-- endbuild -->
+	</head>
+	<body>
+		<header>
+				<div class="container">
+						<h1 class="logo"><img src="img/logo.png"/></h1>
+						<nav class="navbar">
+						  <button class="navbar-btn">
+							☰<span class="sr-only">Menu</span>
+						  </button>
+						  <div class="navbar-inner">
+								<ul class="nav">
+								  <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+								  <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+								  <li class="nav-item"><a href="#" class="nav-link">Clientes</a></li>
+								  <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+								</ul>
+						  </div>
+						</nav>
+				</div>
+		</header>
+		<div class="main"></div>
+		<div class="second">
+				<div class="container">
+						<div class="box1">
+							<i class="fa fa-check fa-4x"></i>
+							<h2>Contabilidade completa</h2>
+							<p>Cuidamos de todas as suas obrigações contábeis e você economiza seu tempo </p>
+						</div>
+						<div class="box2">
+							<i class="fa fa-check fa-4x"></i>
+							<h2>Você seguro da sua regularidade</h2>
+							<p>De forma intuitiva e fácil, você controla as atividades para sua contabilidade permanecer sempre em dia. Alertamos você sempre que sua empresa precisar de sua atenção.</p>
+						</div>
+						<div class="box3">
+							<i class="fa fa-check fa-4x"></i>
+							<h2>Atendimento excelente</h2>
+							<p>Você decide como quer atendimento via
+							chat, e-mail ou pelo telefone 4020.8283 (ligação local) </p>
+						</div>
+				</div>
+		</div>
+		<div class="third">
+				<div class="container">
+				</div>
+		</div>
+		<footer>
+			<div class="container">
+					rodapé
+			</div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- build:js js/scripts.min.css -->
+
+		<!-- endbuild -->
+		<script type="text/javascript">
+			$('.navbar-btn').on('click', function() {
+			  $('.navbar-inner').toggleClass('in');
+			});
+		</script>
+
+	</body>
+</html>

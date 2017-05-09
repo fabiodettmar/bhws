@@ -1,0 +1,22 @@
+{
+  "name": "starlord",
+  "version": "1.0.0",
+  "description": "projeto base do site bhwm contabilidade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dettmar",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-rev": "^0.1.0",
+    "grunt-usemin": "^3.1.1"
+  }
+}

@@ -1,0 +1,96 @@
+h1.logo {margin:0;}
+.logo img {height:70px; float:left; margin:5px 3px 3px;}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+.nav {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+@media (max-width: 767px) {
+	.navbar {
+		position: fixed;
+		right: 0;
+		top: 0;
+		padding: 10px;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-btn {
+		background: #222;
+		color: #fff;
+		border: 1px solid #222;
+		font-size: 2rem;
+		padding: 5px 20px 7px;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-btn {
+		display: none;
+	}
+}
+.navbar-inner {
+	text-align: center;
+}
+@media (max-width: 767px) {
+	.navbar-inner {
+		opacity: 0;
+		position: absolute;
+		right: 0;
+		margin-right: 20px;
+		visibility: hidden;
+		transition: opacity 0.3s, visibility 0.3s;
+	}
+	.navbar-inner.in {
+		opacity: 100;
+		visibility: visible;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-inner {
+		padding: 10px;
+	}
+}
+.nav {
+	margin-top: 0;
+}
+@media (min-width: 768px) {
+	.nav {
+		display: inline-block;
+	}
+}
+@media (min-width: 768px) {
+	.nav-item {
+		display: inline-block;
+	}
+}
+.nav-link {
+	display: block;
+	min-width: 200px;
+	padding: 20px;
+	text-decoration: none;
+	transition: background 0.3s;
+}
+@media (max-width: 767px) {
+	.nav-link {
+		border-bottom: solid 1px #aaa;
+	}
+}
+@media (min-width: 768px) {
+	.nav-link {
+		border-right: solid 1px #aaa;
+		min-width: 60px;
+	}
+	.nav-item:first-child .nav-link {
+		border-left: solid 1px #aaa;
+	}
+}

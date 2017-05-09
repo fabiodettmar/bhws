@@ -1,0 +1,34 @@
+header {
+	background:rgba(0,0,0,.1);
+}
+.main {
+	background:#5500BB;
+}
+.nav-link {
+	color: #00539E;
+}
+.nav-link:hover,
+.nav-link:focus {
+	background: rgba(255,255,255,0.3);
+}
+.second {
+	background:#d1d1d1;
+}
+.second .box1 {
+	background:#458FFF;
+}
+.second .box2 {
+	background:black;
+}
+.second .box3 {
+	background:#666;
+}
+.third {
+	background:yellow;
+}
+footer {
+	background:#333;
+}
+.second .box1 , .second .box2, .second .box3 {
+	color:#FFF;
+}

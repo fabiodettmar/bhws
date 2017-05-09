@@ -1,0 +1,31 @@
+.container {
+	width:1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.second > .container {
+	/*height:100vh;*/
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: top;
+	-ms-flex-align: top;
+	align-items: top;
+}
+.second > .container .box1, .second > .container .box2, .second > .container .box3 {
+	/*height:100%;*/
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-flex:1 1 auto;
+	flex:1 1 auto;
+	text-align: center;
+	padding:15px;
+	margin: 10px;
+	width: 33.3%;
+}
+
+.third {
+	height:100vh;
+}
